@@ -99,11 +99,6 @@ const FeaturesSection = () => {
                   {feature.description}
                 </p>
 
-                {/* Hover indicator */}
-                <div className="mt-6 flex items-center gap-2 text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span>Learn more</span>
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
-                </div>
               </CardContent>
             </Card>
           ))}
